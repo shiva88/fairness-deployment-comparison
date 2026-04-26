@@ -25,7 +25,7 @@ Reports performance (accuracy, F1), fairness (SPD, EOD, Disparate Impact), and *
 ### 1. Clone and create a virtual environment
 
 ```bash
-git clone https://github.com/<your-user>/fairness-deployment-comparison.git
+git clone https://github.com/shiva88/fairness-deployment-comparison.git
 cd fairness-deployment-comparison
 
 python3.11 -m venv .venv
@@ -142,12 +142,12 @@ fairness-deployment-comparison/
 If you use this code or build on this work, please cite:
 
 ```bibtex
-@article{parthasarathy2024deployment,
+@article{parthasarathy2026deployment,
   title   = {Deployment-Aware Comparison of Lightweight Bias Mitigation
              Techniques in Machine Learning Pipelines},
   author  = {Parthasarathy, Shivaraman},
   journal = {IEEE Access},
-  year    = {2024},
+  year    = {2026},
   note    = {Under review}
 }
 ```
