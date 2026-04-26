@@ -1,0 +1,17 @@
+# Pinned to exact versions used in the published experiments.
+# Python 3.11 required (3.12+ breaks AIF360's BlackBoxAuditing dependency).
+
+aif360==0.6.1
+BlackBoxAuditing
+numpy==1.26.4
+pandas==1.5.3
+scikit-learn==1.5.2
+scipy==1.17.1
+matplotlib==3.10.9
+
+# Implicit dependencies pulled in by aif360 — pinned for reproducibility:
+joblib==1.5.3
+threadpoolctl==3.6.0
+pytz==2026.1.post1
+python-dateutil==2.9.0.post0
+six==1.17.0

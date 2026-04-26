@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+
+# Local result outputs (keep the canonical one in the repo)
+# Comment the next line out if you want to share intermediate results
+# results/*.csv
+
+# Figures generated locally — keep canonical PNGs but ignore PDFs
+*.aux
+*.log
+*.out
+
+# AIF360 dataset files (must be downloaded separately, see README)
+**/aif360/data/raw/adult/*.data
+**/aif360/data/raw/adult/*.test
+**/aif360/data/raw/adult/*.names
+**/aif360/data/raw/compas/*.csv
+**/aif360/data/raw/german/*.data
+**/aif360/data/raw/german/*.doc
